@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  scroll-behavior: smooth;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: rgb(31, 31, 44);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px 0;
+}
+.logo{
+  font-size: 30px;
+
+}
+button{
+  padding: 20px;
+}
+nav ul{
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li{
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in;
+}
+nav ul li:hover{
+  border-bottom: 2px solid white;
+  transition: 0.2s ease-in;
+}
+.hero-section{
+  background-image: url(hero_image.png);
+  height: 100vh;
+  display: grid;
+  color: white;
+  place-items: center;
+  text-align: center;
+}
+.hero-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.music-section{
+  padding: 50px;
+  background-color: blue;
+}
+.music-section .container{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.ipad-iphone{
+  margin-top: -400px;
+  position: relative;
+  top: 400px;
+}
+.red-btn{
+  background-color: red;
+  color: white;
+}
+.blue.btn{
+  color: white;
+  background-color: blue;
+}
+.about-music{
+  padding-top: 500px;
+  display: grid;
+  text-align: center;
+  gap: 50px;
+  place-items: center;
+  margin-bottom: 50px;
+}
+.video-section{
+  background-image: url(video.png);
+  min-height: 800px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+}
+.video-section .container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero-section ,.video-section{
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.giftcard-section{
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+}
+.gift-content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
